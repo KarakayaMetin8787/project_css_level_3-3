@@ -1,0 +1,217 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "merriweatherREG";
+    src: url(./../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: "merriweatherBOLD";
+    src: url(./../fonts/Merriweather/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(./../fonts/Lato/Lato-Regular.ttf);
+}
+
+html {
+    font-family: "merriweatherREG", sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    font-family: "lato";
+    font-size: 1.2rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 21px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    margin-left: 144px;
+    margin-top: 152px;
+}
+
+h2 {
+    font-family: "merriweatherBOLD";
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-block: 10px;
+    line-height: 2.4rem;
+}
+
+.button__container {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 300px;
+}
+
+.button__download {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.button__subscribe {
+    color: black;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.odd {
+    float: right;
+    clear: both;
+}
+
+.even {
+    float: left;
+    margin-bottom: 100px;
+}
+
+.image3 {
+    padding-right: 140px;
+}
+
+.text__container {
+    width: 500px;
+    text-align: left;
+}
+
+.text__container2 {
+    width: 500px;
+    text-align: left;
+    float: right;
+    margin-right: 250px;
+    margin-bottom: 300px;
+}
+
+.text__container3 {
+    width: 500px;
+    text-align: left;
+    margin-bottom: 350px;
+}
+
+.text__container4 {
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.text__container5 {
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+section img {
+    height: 470px;
+}
+
+.illustrations {
+    width: 360px;
+    margin-bottom: 100px;
+}
+
+.illustrations:hover {
+    box-shadow: 0 0 5px 1px grey;
+}
+
+.examples {
+    height: 324px;
+    margin: 30px;
+}
+
+.examples:hover {
+    box-shadow: 0 0 5px 1px grey;
+}
+
+.membership {
+    background-color: #55ACEE1A;
+    width: 360px;
+    height: 572px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.membership__title {
+    font-size: 1.5rem;
+    padding-block: 50px;
+}
+
+.pricing {
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+
+.duration {
+    font-size: 1rem;
+    color: #7E7E7E;
+}
+
+article ul {
+    list-style-type: none;
+}
+
+.button__member {
+    background-color: #55ACEE;
+    border-radius: 8px;
+    padding-block: 16px;
+    width: 228px;
+    margin: 020px auto;
+}
+
+.button__member a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer li {
+    padding-inline: 5px;
+    font-size: 1.2rem;
+}
+
+.text-color-contacts {
+    color: #7E7E7E;
+}
+
+footer li:nth-of-type(2){
+    color: #FCAF45;
+}
+
+footer li:nth-of-type(3){
+    color: #55ACEE;
+}
+
+footer li:nth-of-type(4){
+    color: #C4302B;
+}
